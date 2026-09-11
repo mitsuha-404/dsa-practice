@@ -30,6 +30,25 @@ g++ "DAY 1.cpp" -o program
 
 ---
 
+### 💡 Quick Reference: C++ Operator Precedence
+
+**Order of evaluation:** From Highest Precedence (Calculates First) to Lowest Precedence (Calculates Last)
+
+* **() []** : Operators within parenthesis are performed first (Highest)
+* **++, --** : Postfix increment / decrement
+* **++, --** : Prefix increment / decrement
+* ***, /, %** : Multiplication, Division, Modulus
+* **+, -** : Addition, Subtraction
+* **<, <=, >, >=** : Relational comparison (Less than, Less than or equal to, Greater than, Greater than or equal to)
+* **==, !=** : Equality comparison (Equal to, Not equal to)
+* **&&** : Logical AND
+* **||** : Logical OR
+* **?:** : Conditional Operator
+* **=** : Simple Assignment
+* **+=, -=, *=, /=** : Shorthand assignment operators
+* **,** : Comma operator (Lowest)
+
+
 ## 📈 Activity Log
 *Quick log of concepts mastered so far:*
 
